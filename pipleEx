@@ -1,0 +1,9 @@
+node {
+stage('git checkout'){
+sh 'echo checkout'
+sh 'sleep 10'
+}
+stage ('unit testing'){
+sh 'echo UT'
+sh 'sleep 10'
+}
